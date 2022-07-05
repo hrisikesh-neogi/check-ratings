@@ -1,0 +1,67 @@
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+.navbar.navbar-inverse.navbar-fixed-top {
+  background: #000;
+}
+.main-nav ul.navbar-nav li a {
+  text-transform: uppercase;
+  color: #efc33f;
+}
+.main-nav ul.navbar-nav li.active a,
+.main-nav ul.navbar-nav li a:hover {
+  text-transform: uppercase;
+  color: #ffffff;
+  text-decoration: underline;
+  background: inherit !important;
+}
+.main-nav button.btn.btn-warning {
+  color: #000;
+  background: #efc33f;
+  border-radius: 18px;
+  font-weight: bold;
+  border: none;
+}
+.navbar-inverse .navbar-nav li.active:after {
+  width: 0;
+  height: 0;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  border-top: 7px solid #000;
+  top: 51px;
+  left: 40px;
+  position: absolute;
+  z-index: 99999;
+  content: "";
+}
+.bottom-arrows {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #f00;
+  bottom: 0;
+  top: 51px;
+  position: absolute;
+  z-index: 99999;
+}
+.subnavbar.navbar-fixed-top {
+  top: 50px;
+  position: fixed;
+  background: #622aa9;
+  z-index: 1000;
+}
+.subnavbar ul.navbar-nav li a {
+  text-transform: uppercase;
+  color: white;
+}
+.subnavbar ul.navbar-nav li a:hover,
+.subnavbar ul.navbar-nav li a:focus {
+  background: #622aa9;
+  text-decoration: underline;
+  color: #9b9b9b;
+}
+.subnavbar ul.nav.navbar-nav.active {
+  display: block !important;
+}

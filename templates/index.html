@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Check Ratings</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+<link rel="stylesheet" href="../static/style.css">
+<link rel="stylesheet" href="../static/upload_style.css">
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html lang="en"><head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Check Your Ratings</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="https://ineuron.ai"><strong>Check Ratings @Ineuron</strong></a>
+        </div>
+        <div class="navbar-collapse collapse navbar-right main-nav" id="navbar">
+           <ul class="nav navbar-nav ">
+            <li id="sub-1"><a href="/upload">Upload Dataset</a></li>
+            <li id="sub-2"><a href="#Button2">Button 2</a></li>
+            <li id="sub-3"><a href="#Button3">Button 3</a></li>
+            <li id="sub-4"><a
+href="#Button4">Button 4</a></li>
+          </ul>
+          <div class="bottom-arrow"></div>
+        </div><!--/.navbar-collapse -->
+      </div>
+    </nav>
+    
+    <!-- Sub navbar -->
+     <nav class="subnavbar navbar navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-collapse collapse navbar-right" id="subnavbar">
+          
+          <ul class="nav navbar-nav sub-1" style="display:none;">
+            <li class="active"><a href="#Type1">Type 1</a></li>
+            <li><a href="#Type2">Type 2</a></li>
+            <li><a href="#Type3">Type 3</a></li>
+            <li><a href="#Type4">Type 4</a></li>
+          </ul>
+
+          <ul class="nav navbar-nav sub-2" style="display:none;">
+            <li class="active"><a href="#">Sub Button 1</a></li>
+            <li><a href="#">Sub Button 2</a></li>
+          </ul>
+          
+          <ul class="nav navbar-nav sub-3" style="display:none;">
+            <li class="active"><a href="#">Sub Button 1</a></li>
+            <li><a href="#">Sub Button 2</a></li>
+          </ul>
+
+          <ul class="nav navbar-nav sub-4" style="display:none;">
+            <li class="active"><a href="#">Sub Button 1</a></li>
+            <li><a href="#2">Sub Button 2</a></li>
+          </ul>
+        </div><!--/.navbar-collapse -->
+      </div>
+    </nav>
+  
+    <!-- <div class="jumbotron">
+      <div class="container">
+  <div class="text-center">
+    <h1>Upload Video</h1> -->
+    
+    <!-- Test all icons -->
+    <!-- <h1>
+      <i class="far fa-file-video text-warning"></i>
+    </h1> -->
+    
+      <!-- This file input will automatically converted into "Bootstrap File Input" -->
+      <!-- Iconic preview for thumbs and detailed preview for zoom -->
+      
+      <form action = "/upload" method = "post" enctype="multipart/form-data" >
+        <h3 class="title">Upload Dataset</h3>
+      <div class="frame">
+        <div class="center">
+          <div class="subtitle">
+            <h5>Drop file to upload</h5>
+          </div>
+          
+      
+            <div class="dropzone">
+              <img src="http://100dayscss.com/codepen/upload.svg" class="upload-icon" />
+              <input type="file" class="upload-input" name = "file"/>
+            </div>
+      
+          <button type="submit" class="btn" name="uploadbutton">Upload file</button>
+          
+        </div>
+      
+      </div>
+      </form>
+      </div>
+
+  </div>
+</div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" type="text/javascript"></script>
+</body>
+</html>
+<!-- partial -->
+  <script  src="../static/script.js"></script>
+
+</body>
+</html>

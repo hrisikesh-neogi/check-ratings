@@ -1,0 +1,13 @@
+pandas
+openpyxl
+Flask 
+Flask-Compress
+Flask-Cors 
+importlib-metadata
+Jinja2 
+pymongo
+requests 
+urllib3 
+zipp
+configparser
+gunicorn
